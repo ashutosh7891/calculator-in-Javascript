@@ -1,0 +1,74 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Center the content */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #2f2f2f;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  #calculator {
+    text-align: center;
+  }
+  
+  /* Style the input display */
+  #display {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the buttons */
+  button {
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  /* Style the clear and equals buttons */
+  #btnClear,
+  #btnEquals {
+    background-color: #f44336;
+  }
+  
+  /* Style the operator buttons */
+  #btnPlus,
+  #btnMinus,
+  #btnMultiply,
+  #btnDivide {
+    background-color: #2196F3;
+  }
+  
+  /* Add hover effects for buttons */
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add hover effect for clear and equals buttons */
+  #btnClear:hover,
+  #btnEquals:hover {
+    background-color: #e57373;
+  }
+  
